@@ -1,0 +1,92 @@
+body{
+    background-color: white;/*color de fondo*/
+    color: black;/*color de letra*/
+}
+
+#Barra a{ /*estilo a las etiquetas a*/
+    text-decoration: none;
+    color: white;
+}
+
+#Barra a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#Barra{ /* formato a todo el id: barra*/;
+    background-color: #076E08;/*color de fondo*/
+    position: absolute;/* tomara todo el espacio*/
+    left: 0px;/* para que tome el lugar del margen a la izq*/
+    top: 0px;/* para que suba al margen superior*/
+    display: block;
+    width: 100%;
+}
+
+#Barra ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#titulos{
+    float: left;
+}
+
+#Barra li{
+    float: right;
+}
+
+#Barra li a{
+    padding: 30px; /*espacio entre los elementos*/
+    display: inline-block;
+    text-decoration: none;
+}
+
+#links li a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+/*identificador de contenido*/
+
+#Contenido{
+    max-width: 100%;
+    position: relative;
+    top: 80px;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+#Contenido header{
+    height: 120px;/* alto*/
+    padding: 5px;
+    background-color: #FAF7EC;
+    border-radius: 1em;
+    color: black;
+    text-align: center;
+}
+
+#categorias{
+    padding: 30px;
+    width: 45%;
+    display: inline-block;
+
+}
+
+#categorias2{
+    padding: 30px;
+    width: 45%;
+    display: inline-block;
+}
+
+#Contenido footer{
+    clear: both;
+    height: 120px;/* alto*/
+    padding: 10px;
+    background-color: #FAF7EC;
+    border-radius: 1em;
+    color: black;
+    text-align: center;
+}
+

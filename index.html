@@ -1,121 +1,79 @@
 <!DOCTYPE html>
-<!--https://wireframe.cc/ sirve para maquetar un sitio web-->
-<!--https://uniwebsidad.com/?from=librosweb-->
-<html>
+<html lang="es">
+
 <head>
-	<style>
-		#home{
-			right: 0px;
-			width: 30px;
-		}
-		#taza{
-			right: 0px;
-			width: 30px;
-		}
-		#titulo{
-			right: 0px;
-		}
-		#Barra li h2{
-			padding: 10px;
-			color: white;
-			text-decoration: none;
-			display: inline-block;
-			left: 0;
-			top: 0;
-		}
-		#links2{
-			text-decoration: none;
-			left: 0;
-			top: 0px;
-			padding: 5px;
-			padding-top: 10px;
-			color: white;
-			position: absolute;
-			width: 0px;
-			display: inline-block;
-		}
-		#links2 :hover{
-			text-decoration: underline;
-			background-color: lightgray;
-    		color: white;
-		}
-		#bienvenida{
-			width: 80%;
-			left: 10%;
-			display: inline-block;
-			text-align: left;
-			position: relative;
-		}
-		#categorias{
-			width: 100%;
-			left: 0%;
-			display: inline-block;
-			text-align: center;
-			position: relative;
-		}
-		#titulo1{
-			height: 35px;
-			text-decoration: none;
-			width: 100%;
-			background-color: #FAF7EC;
-    		border-radius: 1em;
-		}
-	</style>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CAFETERIA UT</title>
-	<link rel="stylesheet" type="text/css" href="EstiloInicio.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Bienvenido a cafeteria UT</title>
 </head>
+
 <body>
-<nav id="Barra">
-	<ul id="titulos">
-		<li><h2>CAFETERIA UTSLP</h2></li>
-		<li><a><img id="taza" src="iconos/taza.PNG"></a></li>
-	</ul>
-	<ul id="links">
-		<li><a href="shop.html"><img id="home" src="iconos/agregar_carrito.PNG" alt="Carrito"></a></li>
-		<li><a href="setting.html"><img id="home" src="iconos/usuario.PNG" alt="Carrito"></a></li>
-	</ul>
-
-</nav>
-<div id="Contenido">
-	</section> 
-	<section id="links2">
-		<li><a href="food.html"><img id="home" src="iconos/hamburguesa.PNG" alt="Carrito"></a></li>
-		<li><a href="drinks.html"><img id="home" src="iconos/coca.PNG" alt="Carrito"></a></li>
-	</section>
-	<header id="bienvenida">
-		<h1>BIENVENIDOS</h1>
-		<small>Bienvenidos a la cafeteria de la Universidad Tecnologia de Sanl Luis Potosi en el cual podras comprar tu <br>lonche y asi puedes almorzar sin hacer filas.</small>
-	</header>
-	<div id="categorias">
-		<h2 id="titulo1">CATEGORIAS</h2>
-	<section id="Principal">
-		<a href="https://placeholder.com/"><img src="https://via.placeholder.com/150"></a>
-		<h2>TEXTO 1</h2>
-	</section>
-	<section id="Secundaria">
-		<a href="https://placeholder.com/"><img src="https://via.placeholder.com/150"></a>
-		<h2>TEXTO 2</h2>
-	</section>
-	<section id="terceriario">
-		<a href="https://placeholder.com/"><img src="https://via.placeholder.com/150"></a>
-		<h2>TEXTO 3</h2>
-	</section>
-	<section id="cuarto">
-		<a href="https://placeholder.com/"><img src="https://via.placeholder.com/150"></a>
-		<h2>TEXTO 4</h2>
-	</section>
-	</div>
-	<footer>
-		<h2>Como crear una cuenta</h2>
-		<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sapien netus, hac et tellus odio leo magna vel potenti, morbi vehicula sociis semper quis aptent mollis arcu.</p>
-		 <a href="login.html">
-        <input type="button" value="CREAR CUENTA">
-    	</a>
-	</footer>
-</div>
-
-
+    <div class="container-form sign-up">
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido a cafeteria UTSLP</h2>
+                <p>Si ya tienes una cuenta por favor inicia sesion aqui</p>
+                <button class="sign-up-btn">Iniciar Sesion</button>
+            </div>
+        </div>
+        <form class="formulario">
+            <h2 class="create-account">Crear una cuenta</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <i class='bx bxl-instagram'></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-linkedin' ></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-facebook-circle' ></i>
+                </div>
+            </div>
+            <script src="function4.js"></script>
+            <p class="cuenta-gratis">Crear una cuenta gratis</p>
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Contraseña">
+            <input onclick="ir4()" type="button" value="Registrarse">
+        </form>
+    </div>
+    <div class="container-form sign-in">
+        <form class="formulario">
+            <h2 class="create-account">Iniciar Sesion</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <i class='bx bxl-instagram'></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-linkedin' ></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-facebook-circle' ></i>
+                </div>
+            </div>
+            <p class="cuenta-gratis">¿Aun no tienes una cuenta?</p>
+            <script src="function.js"></script>
+            <form name="form" action="inicio sesion">
+                <input type="email" placeholder="Email" name="login">
+                <input type="password" placeholder="Contraseña" name="password">
+                <input onclick="ir()" type="button" value="Iniciar Sesion">
+            </form>
+        </form>
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido de nuevo</h2>
+                <p>Si aun no tienes una cuenta por favor registrese aqui</p>
+                <button class="sign-in-btn">Registrarse</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>

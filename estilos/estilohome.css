@@ -1,0 +1,148 @@
+*{
+    font-family: arial;
+}
+
+body{
+    background-color: white;/*color de fondo*/
+    color: black;/*color de letra*/
+}
+
+#Barra a{ /*estilo a las etiquetas a*/
+    text-decoration: none;
+    color: white;
+}
+
+#Barra a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#Barra{ /* formato a todo el id: barra*/;
+    background-color: #076E08;/*color de fondo*/
+    position: absolute;/* tomara todo el espacio*/
+    left: 0px;/* para que tome el lugar del margen a la izq*/
+    top: 0px;/* para que suba al margen superior*/
+    display: block;
+    width: 100%;
+}
+
+#Barra ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#titulos{
+    float: left;
+}
+
+#Barra li{
+    float: right;
+}
+
+#Barra li a{
+    padding: 30px; /*espacio entre los elementos*/
+    display: inline-block;
+    text-decoration: none;
+}
+
+#links li a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+/*identificador de contenido*/
+
+#Contenido{
+    max-width: 100%;
+    position: relative;
+    top: 80px;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+#Contenido header{
+    height: 120px;/* alto*/
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 1em;
+    color: black;
+    text-align: center;
+}
+
+#Principal{
+    margin-left: 10px;
+    width: 20%;/*ancho*/
+    float: left;/* ubicar a la izq*/
+    padding: 20px;/*espaciado*/
+}
+
+#Principal img{
+    border-radius: 10px;
+}
+
+#Secundaria{
+    width: 20%;/*ancho*/
+    float: left;/* ubicar a la izq*/
+    padding: 20px;/*espaciado*/
+}
+
+#Secundaria img{
+    border-radius: 10px;
+}
+
+#terceriario{
+    width: 20%;/*ancho*/
+    float: left;/* ubicar a la izq*/
+    padding: 20px;/*espaciado*/
+}
+
+#terceriario img{
+    border-radius: 10px;
+}
+
+#cuarto{
+    width: 20%;/*ancho*/
+    float: left;/* ubicar a la izq*/
+    padding: 20px;/*espaciado*/
+}
+
+#cuarto img{
+    border-radius: 10px;
+}
+
+#Contenido aside{
+    width: 20%;/*ancho*/
+    float: left;
+    padding: 4px;/*espaciado*/
+}
+
+#Contenido footer{
+    width: 100%;
+    clear: both;
+    height: 100px;/* alto*/
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 1em;
+    color: black;
+    text-align: center;
+}
+
+#footer button{
+    padding: 1rem;
+    font-weight: 100;
+    background-color: #076E08;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .8rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: white;
+}
+
+#footer button:hover{
+    background-color: lightgray;
+}
